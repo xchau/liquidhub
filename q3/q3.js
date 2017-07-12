@@ -2,6 +2,7 @@
 
 // Most simple solution; returns nth fib value
 function fibNoMemo(n) {
+  if (n < 0) return;
   if (n === 1) return 1;
   if (n <= 0) return 0;
 
@@ -17,6 +18,7 @@ function wrapper(n) {
   return fibMemo(n);
 
   function fibMemo(n) {
+    if (n < 0) return;
     if (n === 1) return 1;
     if (n <= 0) return 0;
 
