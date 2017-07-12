@@ -1,0 +1,18 @@
+.App {
+  align-items: center;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+}
+
+.App-IncDecBox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.App-DisplayBox {
+  font-size: 4rem;
+}
