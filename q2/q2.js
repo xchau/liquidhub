@@ -4,8 +4,6 @@ const array = [3, 5, 6, 7, 0, 0, 9, 2, 0];
 
 // Starts backwards at end of array; deletes current zero and places at the end
 function zeroToRight(arr) {
-  let count = arr.length;
-
   for (let i = arr.length; i >= 0; i--) {
     if (arr[i] === 0) {
       let temp = arr.splice(i, 1);
